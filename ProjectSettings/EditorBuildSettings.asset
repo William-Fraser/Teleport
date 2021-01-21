@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Checkpoints.unity
+    guid: 01473e9b23fa2a842861c91ea24e320b
+  - enabled: 1
+    path: Assets/Scenes/Teleport.unity
+    guid: 48f44e05a55c46c458c3dbf9099b09ac
   m_configObjects: {}

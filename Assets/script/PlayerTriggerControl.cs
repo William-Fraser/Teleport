@@ -7,6 +7,7 @@ public class PlayerTriggerControl : MonoBehaviour
 {
     Vector3 originalPosition;
     public GameObject CheckpointText;
+    public CharacterController Player;
 
     private void Start()
     {
@@ -24,6 +25,11 @@ public class PlayerTriggerControl : MonoBehaviour
         if (other.tag == "KillBox")
         {
             gameObject.transform.position = originalPosition;
+        }
+
+        if (other.tag == "Teleport")
+        {
+            Player.Move(new Vector3(-7,1,0));
         }
 
     }
